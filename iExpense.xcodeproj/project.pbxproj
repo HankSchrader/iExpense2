@@ -13,6 +13,8 @@
 		53817B7725FED5290014CE87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53817B6225FED5280014CE87 /* ContentView.swift */; };
 		53817B7825FED5290014CE87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53817B6325FED5290014CE87 /* Assets.xcassets */; };
 		53817B7925FED5290014CE87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53817B6325FED5290014CE87 /* Assets.xcassets */; };
+		53817B8525FED8B40014CE87 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53817B8425FED8B40014CE87 /* AddView.swift */; };
+		53817B8625FED8B40014CE87 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53817B8425FED8B40014CE87 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		53817B7025FED5290014CE87 /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53817B7225FED5290014CE87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53817B7325FED5290014CE87 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		53817B8425FED8B40014CE87 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,7 @@
 			children = (
 				53817B6125FED5280014CE87 /* iExpenseApp.swift */,
 				53817B6225FED5280014CE87 /* ContentView.swift */,
+				53817B8425FED8B40014CE87 /* AddView.swift */,
 				53817B6325FED5290014CE87 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -189,6 +193,7 @@
 			files = (
 				53817B7625FED5290014CE87 /* ContentView.swift in Sources */,
 				53817B7425FED5290014CE87 /* iExpenseApp.swift in Sources */,
+				53817B8525FED8B40014CE87 /* AddView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +203,7 @@
 			files = (
 				53817B7725FED5290014CE87 /* ContentView.swift in Sources */,
 				53817B7525FED5290014CE87 /* iExpenseApp.swift in Sources */,
+				53817B8625FED8B40014CE87 /* AddView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
